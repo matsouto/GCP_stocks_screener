@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-functions-framework --port 8080 --target hello_get --signature-type http --source main.py --debug
+functions-framework --port 8080 --target screener_run --signature-type http --source main.py --debug
 
 # curl -X POST \
 # -H "Content-type:application/json" \

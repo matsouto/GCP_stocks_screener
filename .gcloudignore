@@ -28,3 +28,8 @@
 
 node_modules
 #!include:.gitignore
+
+optimization_ifr2.ipynb
+.secrets
+_.ipynb
+_.sh

@@ -62,7 +62,7 @@ def ifr2_screener(oversold=25) -> str:
     period = 2
     timeframe = "1d"
 
-    backtesting_result = pd.read_csv("./ifr2_best_stocks_backtesting.csv")
+    backtesting_result = pd.read_csv("./data/ifr2_best_stocks_backtesting.csv")
 
     backtesting_result["Greatness Factor"] = (
         backtesting_result["Gain Factor"] * backtesting_result["Profitable %"]
